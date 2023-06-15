@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\apis\\javax.activation-api-1.2.0.jar",
+        "d:\\apis\\jaxb-api-2.4.0-b180830.0359.jar",
+        "d:\\apis\\mysql-connector-j-8.0.33.jar"
+    ]
+}

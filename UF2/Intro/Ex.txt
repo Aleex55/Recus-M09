@@ -1,0 +1,17 @@
+Ex1:
+tasklist
+
+Ex2:
+tasklist /FI "USERNAME eq %USERNAME%"
+
+Ex3:
+Admin de tareas > procesos > estado > buscar los que estan "Finalizado" o "Finalizando" > click derecho > finalizar tarea
+
+o
+
+Get-Process | Where-Object {$_.Status -eq "Zombie"}
+taskkill /F /PID id_estado
+
+Ex4:
+cd D:\Resources
+handle.exe -a

@@ -1,0 +1,13 @@
+run > open configurations
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Ex1",
+            "vmArgs": "-Djava.security.manager"
+        }
+    ]
+}
